@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## GeoLocating
 
-You can use the [editor on GitHub](https://github.com/nmarsano/CS152Proposal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Proposal 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I plan to train neural networks for the task of getting perfect scores on GeoGuessr, or more generally, successfully locating the geographical location of a static image. After training, the neural network will be given an image and should output a location of said image.
 
-### Markdown
+I hope to potentially advance this project by furthering the identification abilities of the NN via image segmentation and further training on additional datasets of specific objects or written texts.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The fully trained NN will be implemented as a web-based application where users may upload their own images. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nmarsano/CS152Proposal/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Goals:
+1. Create a dataset for training a NN for geolocation via image scraping if one doesn’t already exist.
+2. Implement multiple neural networks working on different tasks for the sake of one larger goal.
+3.  Get a stronger feel of comfort for the implementation of neural networks and dataset usage.
+4. Train a NN that is able to successfully geolocate an image.
