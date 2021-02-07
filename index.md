@@ -1,6 +1,6 @@
 ## Title: GeoLocating
 
-## Proposal/Description
+## Description
 
 I plan to train neural networks for the task of getting perfect scores on GeoGuessr, or more generally, successfully locating the geographical location of a static image. After training, the neural network will be given an image and should output a location of said image.
 
